@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box; }
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto Condensed", sans-serif;
+  height: 6000px; }
+
+.hero-section .hero {
+  height: 100vh;
+  color: #fff;
+  background-size: cover;
+  background-repeat: no-repeat; }
+  .hero-section .hero .content2 {
+    text-align: right; }
+    .hero-section .hero .content2 .icons {
+      margin-top: 40px; }
+      .hero-section .hero .content2 .icons i {
+        font-size: 20px;
+        margin-right: 20px;
+        cursor: pointer;
+        transition: 0.16s; }
+      .hero-section .hero .content2 .icons i:hover {
+        color: #ffd740; }
+    .hero-section .hero .content2 h1 {
+      font-size: 45px;
+      margin-bottom: 35px;
+      margin-top: 430px; }
+    .hero-section .hero .content2 p {
+      font-size: 18px;
+      margin-bottom: 50px; }
+    .hero-section .hero .content2 button {
+      background: transparent;
+      border: none;
+      border-bottom: 2px solid #ffd740;
+      color: #fff;
+      font-size: 18px; }
+  .hero-section .hero .content h2 {
+    margin: 0;
+    color: #ffd740;
+    margin-top: 35px;
+    margin-bottom: 430px; }
+  .hero-section .hero .content h1 {
+    font-size: 45px;
+    margin-bottom: 35px; }
+  .hero-section .hero .content p {
+    font-size: 18px;
+    margin-bottom: 50px; }
+  .hero-section .hero .content button {
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #fff;
+    color: #ffd740;
+    font-size: 18px; }
+
+.what-i-can-do {
+  background: #ffd740;
+  height: 100vh; }
+
+/*# sourceMappingURL=style.css.map */
