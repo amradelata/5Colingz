@@ -7,6 +7,9 @@ body {
   font-family: "Roboto Condensed", sans-serif;
   height: 6000px; }
 
+h1 {
+  margin: 0; }
+
 .hero-section .hero {
   height: 100vh;
   color: #fff;
@@ -54,8 +57,76 @@ body {
     color: #ffd740;
     font-size: 18px; }
 
-.what-i-can-do {
+.hero-section2 {
   background: #ffd740;
   height: 100vh; }
+
+.what-i-can-do {
+  background: #ffd740;
+  color: #263238;
+  padding: 100px 0; }
+  .what-i-can-do h1 {
+    margin-bottom: 35px; }
+  .what-i-can-do .position {
+    position: relative; }
+  .what-i-can-do .icons {
+    position: absolute;
+    bottom: 155px;
+    right: 170px;
+    font-size: 20px;
+    color: #fff; }
+    .what-i-can-do .icons i {
+      margin-right: 10px;
+      transition: 0.16s;
+      cursor: pointer; }
+    .what-i-can-do .icons i:hover {
+      color: #ffd740; }
+  .what-i-can-do .margin-top {
+    margin-top: 35px; }
+
+.what h1 {
+  font-size: 30px;
+  border-bottom: 3px solid #fff;
+  width: 40%; }
+
+.skills {
+  margin-bottom: 50px; }
+  .skills .skill {
+    margin-bottom: 95px; }
+  .skills img {
+    vertical-align: bottom;
+    margin-right: 20px; }
+  .skills .paragraph {
+    display: inline-block; }
+  .skills p {
+    display: inline-block; }
+  .skills h4 {
+    margin: 0;
+    margin-bottom: 10px;
+    font-size: 18px; }
+
+.timeline {
+  height: 895px;
+  background-position: center, center;
+  position: relative;
+  color: #fff; }
+  .timeline .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(38, 50, 56, 0.95); }
+    .timeline .overlay h4 {
+      color: #ffd740;
+      font-size: 30px;
+      border-bottom: 3px solid #fff;
+      width: 20%; }
+    .timeline .overlay h1 {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      color: #ffd740;
+      font-size: 70px; }
 
 /*# sourceMappingURL=style.css.map */
