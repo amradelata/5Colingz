@@ -367,7 +367,9 @@ body {
   padding: 0;
   margin: 0;
   font-family: "Roboto Condensed", sans-serif;
-  height: 6000px; }
+  background: #f5f5f5;
+  color: #6e767a;
+  height: 0; }
 
 h1 {
   margin: 0; }
@@ -403,7 +405,7 @@ h1 {
     .hero-section .hero .content .bottom h3 {
       display: inline-block; }
     .hero-section .hero .content .bottom img {
-      width: 20px; }
+      width: 40px; }
   .hero-section .hero h1 {
     margin: 0;
     display: inline-block;
@@ -460,21 +462,30 @@ h1 {
   .about-me .background .margin-top {
     margin-top: 35px; }
 
-.graph .quit-rate .df {
-  padding-left: 190px; }
-  .graph .quit-rate .df a {
-    color: #546e7a;
-    margin-right: 20px;
-    margin-top: 25px; }
-.graph .quit-rate p {
-  margin-top: 50px;
-  font-size: 20px;
-  margin-bottom: 50px; }
+.graph .quit-rate {
+  padding-top: 100px; }
+  .graph .quit-rate .df {
+    padding-left: 190px; }
+    .graph .quit-rate .df a {
+      color: #546e7a;
+      margin-right: 20px;
+      margin-top: 25px; }
+  .graph .quit-rate p {
+    margin-top: 50px;
+    font-size: 20px;
+    margin-bottom: 50px; }
 
 .kj .ylo {
   color: #ffd740;
   margin-left: 10px; }
 
+.like .center {
+  text-align: center;
+  margin: auto; }
+.like h2 {
+  color: #000;
+  float: right;
+  border-bottom: 2px solid #ffd740; }
 .like p {
   margin-top: 50px;
   font-size: 20px;
@@ -488,6 +499,59 @@ h1 {
   width: 100%;
   border: none;
   background: #fff;
-  padding: 50px 10px; }
+  padding: 50px 10px;
+  margin-top: 50px; }
+.like .left {
+  display: inline-block;
+  margin-top: 100px;
+  margin-bottom: 50px; }
+.like .right {
+  display: inline-block;
+  margin-top: 100px;
+  float: right;
+  margin-bottom: 50px; }
+.like .white-background {
+  background: #fff;
+  padding: 1px 25px;
+  margin-top: 50px; }
+  .like .white-background span {
+    display: block;
+    float: right;
+    font-size: 16px;
+    color: #000;
+    margin-top: 40px; }
+
+.foter {
+  background-color: #263238;
+  color: #fff;
+  padding: 100px 0; }
+  .foter h1 {
+    font-weight: bold;
+    font-size: 40px; }
+  .foter span {
+    font-weight: bold;
+    color: #ffd740;
+    font-size: 40px;
+    margin: 0; }
+  .foter h3 {
+    margin: 0;
+    margin-top: 7px;
+    margin-bottom: 30px; }
+  .foter i {
+    margin-right: 30px;
+    font-size: 25px;
+    color: #546e7a; }
+  .foter i:hover {
+    color: #ffd740; }
+  .foter input {
+    background-color: #263238;
+    border: 1px solid #4e595f;
+    border-radius: 3px;
+    padding: 7px 20px;
+    outline: 0;
+    display: block;
+    margin-bottom: 25px; }
+  .foter p {
+    color: #546e7a; }
 
 /*# sourceMappingURL=style.css.map */
