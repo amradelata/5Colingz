@@ -385,10 +385,109 @@ h1 {
     background: rgba(38, 50, 56, 0.71);
     width: 100%;
     height: 100%; }
-  .hero-section .hero .content .as {
-    top: 50%;
-    left: 50%; }
-  .hero-section .hero .content h2 {
-    margin: 0; }
+  .hero-section .hero .content .icons {
+    display: inline-block;
+    margin: 0;
+    float: right;
+    margin-top: 60px; }
+    .hero-section .hero .content .icons i {
+      font-size: 20px;
+      margin-right: 35px;
+      cursor: pointer; }
+    .hero-section .hero .content .icons i:hover {
+      color: #ffd740; }
+  .hero-section .hero .content .bottom {
+    margin-top: 50%; }
+    .hero-section .hero .content .bottom .right {
+      text-align: right; }
+    .hero-section .hero .content .bottom h3 {
+      display: inline-block; }
+    .hero-section .hero .content .bottom img {
+      width: 20px; }
+  .hero-section .hero h1 {
+    margin: 0;
+    display: inline-block;
+    color: #ffd740;
+    margin-top: 35px; }
+    .hero-section .hero h1 span {
+      font-size: 20px;
+      color: #fff;
+        color-cursor: pointer; }
+
+.hero-section .hero .content h2 {
+  top: 50%;
+  font-size: 40px;
+  margin: 0;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center; }
+  .hero-section .hero .content h2 span {
+    font-size: 20px; }
+
+.about-me .padding {
+  padding: 100px 0;
+  padding-right: 25px; }
+.about-me p {
+  font-size: 18px; }
+  .about-me p a {
+    color: #ffd740; }
+.about-me h4 {
+  color: #ffd740;
+  font-size: 25px;
+  margin-top: 35px;
+  margin-bottom: 35px; }
+.about-me .background {
+  background: #ffd740; }
+  .about-me .background img {
+    width: 100%; }
+  .about-me .background h1 {
+    margin-bottom: 35px;
+    margin-top: 100px; }
+  .about-me .background .position {
+    position: relative; }
+  .about-me .background .icons {
+    position: absolute;
+    bottom: 273px;
+    right: 240px;
+    font-size: 20px;
+    color: #fff; }
+    .about-me .background .icons i {
+      margin-right: 10px;
+      transition: 0.16s;
+      cursor: pointer; }
+    .about-me .background .icons i:hover {
+      color: #ffd740; }
+  .about-me .background .margin-top {
+    margin-top: 35px; }
+
+.graph .quit-rate .df {
+  padding-left: 190px; }
+  .graph .quit-rate .df a {
+    color: #546e7a;
+    margin-right: 20px;
+    margin-top: 25px; }
+.graph .quit-rate p {
+  margin-top: 50px;
+  font-size: 20px;
+  margin-bottom: 50px; }
+
+.kj .ylo {
+  color: #ffd740;
+  margin-left: 10px; }
+
+.like p {
+  margin-top: 50px;
+  font-size: 20px;
+  margin-bottom: 50px; }
+.like img {
+  width: 20px;
+  margin-right: 20px;
+  margin-left: 10px;
+  cursor: pointer; }
+.like input {
+  width: 100%;
+  border: none;
+  background: #fff;
+  padding: 50px 10px; }
 
 /*# sourceMappingURL=style.css.map */
