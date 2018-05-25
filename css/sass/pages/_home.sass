@@ -47,6 +47,9 @@ h1
 				border-bottom: 2px solid $primary-color
 				color: #fff
 				font-size: 18px
+			a
+				color: #fff
+				text-decoration: none
 
 		.content
 			// text-align: center
@@ -91,7 +94,7 @@ h1
 		position: relative
 	.icons
 		position: absolute
-		bottom: 155px
+		bottom: 265px
 		right: 170px
 		font-size: 20px
 		color: #fff
@@ -105,11 +108,12 @@ h1
 	.margin-top
 		margin-top: 35px
 .what
+	padding: 100px 0
 	h1
 		font-size: 30px
 		border-bottom: 3px solid #fff
-		width: 40%
-		padding-bottom: 15px
+		width: 41%
+		// padding-bottom: 15px
 .skills
 	margin-bottom: 50px
 	.skill
@@ -168,6 +172,8 @@ h1
 
 	.logo
 		// padding: 100px 0
+		img
+			margin-bottom: 35px
 		span
 			display: block
 			color: $primary-color
@@ -398,6 +404,59 @@ h1
 		margin-bottom: 25px
 	p
 		color: #546e7a
+
+
+@media (max-width: 480px)
+	
+	.hero
+		padding-top: 50px
+
+	.hero-section .hero .content2 h1
+		margin-top: 0
+
+	.what h1
+		width: 85%
+	.what-i-can-do .position
+		width: 100%
+
+	.what-i-can-do .icons
+		bottom: 265px
+		right: 150px
+
+	.what-i-can-do
+		padding: 0
+	.timeline
+		height: 700px
+	.timeline .overlay .content
+		padding: 0 20px
+	.timeline .overlay h1
+		display: none
+
+	.timeline .overlay h4
+		width: 44%
+
+	.timeline .logo img
+		margin-top: 50px
+
+	.testimonial .cards .card
+		flex-basis: calc(100% - 20px)
+		height: 230px
+	.travel h1
+		width: 57%
+
+	.travel .memory
+		width: 100%
+		margin-bottom: 35px
+
+
+	.journal h1
+		width: 63%
+
+	.parag
+		padding: 0 10px
+
+	.what
+		padding: 25px 0
 
 
 
