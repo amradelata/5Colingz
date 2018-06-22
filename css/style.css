@@ -66,6 +66,9 @@ h1 {
   display: inline-block;
   margin: auto; }
 
+.hero-section .hero {
+  background-position: right; }
+
 .hero-section nav .icons {
   position: absolute;
   margin-top: 40px;
@@ -445,17 +448,25 @@ h1 {
     color: #546e7a; }
 
 @media (max-width: 480px) {
+  .hero-section nav .icons {
+    display: block;
+    right: 0;
+    top: 100px; }
+
   .hero-section nav .h2 {
     left: 9px; }
 
   .hero-section .hero .content h1 {
-    margin-top: 100px; }
+    margin-top: 180px; }
 
   .hero-section .hero .content button {
     outline: none; }
 
+  .hero-section .hero .content {
+    text-align: center; }
+
   .hero-section .hero .content2 {
-    text-align: left; }
+    text-align: center; }
 
   .hero-section .hero .content2 h1 {
     margin-top: 100px; }
@@ -613,8 +624,10 @@ h1 {
     width: 100%;
     height: 100%; }
   .hero-section .hero .content .top {
-    top: 50%;
     font-size: 40px;
+    margin: 0;
+    margin-top: 300px;
+    margin-bottom: -200px;
     text-transform: uppercase;
     text-align: center; }
   .hero-section .hero .content span {
@@ -645,7 +658,8 @@ h1 {
 .about-me p {
   font-size: 18px; }
   .about-me p a {
-    color: #ffd740; }
+    color: #ffd740;
+    text-decoration: none; }
 .about-me h4 {
   color: #ffd740;
   font-size: 25px;
@@ -682,7 +696,8 @@ h1 {
     .graph .quit-rate .df a {
       color: #546e7a;
       margin-right: 20px;
-      margin-top: 25px; }
+      margin-top: 25px;
+      text-decoration: none; }
   .graph .quit-rate p {
     margin-top: 50px;
     font-size: 20px;
@@ -711,12 +726,13 @@ h1 {
   margin-right: 20px;
   margin-left: 10px;
   cursor: pointer; }
-.like input {
+.like textarea {
   width: 100%;
   border: none;
   background: #fff;
   padding: 50px 10px;
-  margin-top: 50px; }
+  margin-top: 50px;
+  outline: none; }
 .like .left {
   display: inline-block;
   margin-top: 100px;
@@ -771,6 +787,17 @@ h1 {
     color: #546e7a; }
 
 @media (max-width: 480px) {
+  .hero-section nav .icons {
+    display: block;
+    right: 0;
+    top: 100px; }
+
+  .hero-section .hero .content .bottom {
+    display: none; }
+
+  .hero-section .hero .content .top {
+    margin-top: 200px; }
+
   .about-me p {
     padding: 0 10px; }
 
@@ -833,6 +860,17 @@ h1 {
     text-align: center;
     border-radius: 10px 0 0 10px;
     cursor: pointer; }
+
+.hero-section .hero .content .h1 {
+  margin-top: 40px;
+  color: #ffd740; }
+
+.hero-section .hero .content h2 {
+  text-align: center;
+  margin-top: 300px;
+  margin-bottom: -250px;
+  font-size: 40px;
+  text-transform: uppercase; }
 
 .gallery .overlay {
   position: absolute;
@@ -949,10 +987,15 @@ a {
   font-size: 25px;
   border-bottom: 2px solid #ffd740;
   text-align: center;
-  margin: auto;
-  padding-bottom: 15px; }
+  margin: auto; }
 
 @media (max-width: 480px) {
+  .hero-section .hero .content .h1 {
+    font-size: 30px; }
+
+  .hero-section .hero .content h2 {
+    margin-top: 100px; }
+
   .gallery .italy6 {
     margin-bottom: 20px; } }
 

@@ -69,6 +69,8 @@ h1
 	text-transform: none
 	display: inline-block
 	margin: auto
+.hero-section .hero
+	background-position: right
 .hero-section nav .icons
 	position: absolute
 	margin-top: 40px
@@ -503,16 +505,24 @@ h1
 
 @media (max-width: 480px)
 
+	.hero-section nav .icons
+		display: block
+		right: 0
+		top: 100px
+
 	.hero-section nav .h2
 		left: 9px
 	.hero-section .hero .content h1
-		margin-top: 100px
+		margin-top: 180px
 
 	.hero-section .hero .content button
 		outline: none
 
+	.hero-section .hero .content
+		text-align: center
+
 	.hero-section .hero .content2
-		text-align: left
+		text-align: center
 
 	.hero-section .hero .content2 h1
 		margin-top: 100px
