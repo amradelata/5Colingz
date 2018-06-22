@@ -14,6 +14,45 @@ body
 h1
 	margin: 0
 
+
+// start fixed menu
+.fixed-menu
+	padding: 10px
+	position: fixed
+	right: -240px
+	top: 0
+	height: 100% 
+	width: 240px
+	z-index: 9999
+	background: #fff
+	color: #333
+	h2
+		color: #ffd83f
+		font-weight: bold
+		font-size: 25px
+	.link
+		display: block
+		text-decoration: none
+		color: #333
+		transition: 0.60s
+		padding: 20px
+	.link:hover
+		background: #f1f2f6
+	.fa-bars
+		position: absolute
+		left: -27px
+		top: 35px
+		background: #fff
+		color: #333
+		width: 30px
+		height: 30px
+		line-height: 30px
+		text-align: center
+		border-radius: 10px 0 0 10px
+		cursor: pointer
+// end fixed menu
+
+
 .gallery
 	.overlay
 		position: absolute
