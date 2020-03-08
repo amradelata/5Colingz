@@ -1,11 +1,16 @@
 * {
   box-sizing: border-box; }
-
+.right{
+  margin-right: 100px;
+}
+.left{
+  margin-left: 100px;
+}
 body {
   padding: 0;
   margin: 0;
   font-family: "Roboto Condensed", sans-serif;
-  background: red;
+  background: #fff;
   height: 6000px; }
 
 h1 {
@@ -552,7 +557,7 @@ body {
   padding: 0;
   margin: 0;
   font-family: "Roboto Condensed", sans-serif;
-  background: #f5f5f5;
+   background-color: #fff;
   color: #6e767a;
   height: 0; }
 
@@ -994,9 +999,37 @@ a {
     font-size: 30px; }
 
   .hero-section .hero .content h2 {
-    margin-top: 100px; }
+    margin-top: 200px; }
 
   .gallery .italy6 {
-    margin-bottom: 20px; } }
+    margin-bottom: 20px; } 
+  
+  .right{
+  margin-right: 0 !important;
+}
+.left{
+  margin-left: 0 !important;
+}
+.hero-section .hero .content .icons{
+  float: none;
+}
+.hero-section .hero .content h2 {
+    margin-top: 35px;
+}
+.hero-section .hero .content .h1 {
+    margin-top: 170px;}
+    .hero-section nav .icons{
+      top: 200px;
+    }
+.hero-section .hero .content h1,
+.hero-section .hero .content2 h1 {
+    margin-top: 300px;
+}
+
+.what-i-can-do .icons{
+  bottom: 230px;
+    left: 15px;
+}
+  }
 
 /*# sourceMappingURL=style.css.map */
