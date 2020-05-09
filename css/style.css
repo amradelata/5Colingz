@@ -4,6 +4,7 @@
    .mypopup a{
      font-size: 16px !important;
    }
+
     .mypopup {
   display: none;
   text-align: center;
@@ -1075,13 +1076,13 @@ a {
     margin-top: 35px;
 }
 .hero-section .hero .content .h1 {
-    margin-top: 170px;}
+    margin-top: 100px;}
     .hero-section nav .icons{
       top: 200px;
     }
 .hero-section .hero .content h1,
 .hero-section .hero .content2 h1 {
-    margin-top: 300px;
+    margin-top: 200px;
 }
 
 .what-i-can-do .icons{
