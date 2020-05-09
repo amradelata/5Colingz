@@ -1,5 +1,36 @@
 * {
   box-sizing: border-box; }
+   /* popup*/
+   .mypopup a{
+     font-size: 16px !important;
+   }
+    .mypopup {
+  display: none;
+  text-align: center;
+  background: #fff;
+  position: fixed;
+  z-index: 999999;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 35px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+.mypopup img {
+  width: 350px;
+}
+.mypopup button {
+  /* display: block; */
+  margin: 20px auto;
+  border: none;
+  padding: 10px;
+  background: #2f3640;
+  color: aliceblue;
+}
+.mypopup button a {
+  color: aliceblue;
+}
+    /* popup*/
 .right{
   margin-right: 100px;
 }
@@ -452,7 +483,7 @@ h1 {
   .foter p {
     color: #546e7a; }
 
-@media (max-width: 480px) {
+@media (max-width: 500px) {
   .hero-section nav .icons {
     display: block;
     right: 0;
@@ -522,11 +553,13 @@ h1 {
 
   .testimonial .cards .card {
     flex-basis: calc(100% - 20px);
-    height: 230px; }
+    height: 230px; 
+    text-align: center;
+  }
 
   .travel h1 {
     width: 70%;
-    margin: auto;
+    margin: 0;
     margin-bottom: 50px; }
 
   .travel .memory {
@@ -535,7 +568,7 @@ h1 {
 
   .journal h1 {
     width: 63%;
-    margin: auto;
+    margin: 0;
     margin-bottom: 50px; }
 
   .parag {
@@ -638,7 +671,7 @@ h1 {
   .hero-section .hero .content span {
     font-size: 20px; }
   .hero-section .hero .content .icons {
-    display: inline-block;
+    display: block;
     margin: 0;
     float: right;
     margin-top: 60px; }
@@ -791,7 +824,21 @@ h1 {
   .foter p {
     color: #546e7a; }
 
-@media (max-width: 480px) {
+@media (max-width: 500px) {
+  .journal .cards .paragraph,
+   .parag{
+    text-align: center;
+  }
+  .WhatIcanDoImg{
+    width: 100%;
+  }
+  .what h1{
+    width: 100%;
+  }
+  .WhatIcanDoIcons{
+    position: static !important;
+    margin-top: 50px;
+  }
   .hero-section nav .icons {
     display: block;
     right: 0;
@@ -994,7 +1041,18 @@ a {
   text-align: center;
   margin: auto; }
 
-@media (max-width: 480px) {
+@media (max-width: 500px) {
+      /* popup*/
+  .mypopup img{
+    width: 200px;
+  }
+    .mypopup {
+    width: 100%;
+  }
+  .mypopup button {
+    font-size: 15px !important;
+  }
+  /* popup*/
   .hero-section .hero .content .h1 {
     font-size: 30px; }
 
@@ -1030,6 +1088,45 @@ a {
   bottom: 230px;
     left: 15px;
 }
+.hidinphone{
+      display: none;
+    }
+    .timeline{
+      text-align: center;
+    }
+    
+    .heroicons{
+     display: none !important;
+    }
+
+  }
+  @media (min-width: 500px) and (max-width: 990px){
+    .heroicons{
+     display: none !important;
+    }
+    .timeline,
+    .what,
+    .journal .cards .paragraph,
+    .parag{
+      text-align: center;
+    }
+    .travel .memory,
+    .journal h1{
+      width: 100%;
+    }
+    .hidinphone{
+      display: none;
+    }
+    .timeline .overlay h4,
+    .travel h1,
+    .what h1{
+      width: 100%;
+    }
+    .testimonial .cards .card{
+          flex-basis: calc(100% - 20px);
+          text-align: center;
+    }
+    
   }
 
 /*# sourceMappingURL=style.css.map */
