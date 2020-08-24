@@ -576,8 +576,10 @@ h1 {
     padding: 0 10px; }
 
   .what {
-    padding: 25px 0; }
-
+    padding:  0; }
+.block{
+  display: block;
+}
   .vertical {
     height: 580px;
     margin-top: 50px; }
@@ -691,9 +693,9 @@ h1 {
     .hero-section .hero .content .bottom img {
       width: 30px; }
 
-.about-me .padding {
-  padding: 100px 0;
-  padding-right: 25px; }
+ .padding {
+  padding: 100px 45px;
+  }
 .about-me p {
   font-size: 18px; }
   .about-me p a {
@@ -840,6 +842,7 @@ h1 {
     position: static !important;
     margin-top: 50px;
   }
+
   .hero-section nav .icons {
     display: block;
     right: 0;
@@ -852,13 +855,13 @@ h1 {
     margin-top: 200px; }
 
   .about-me p {
-    padding: 0 10px; }
+    padding: 0 35px; }
 
   .about-me p a {
     padding-bottom: 2px; }
 
   .about-me h4 {
-    padding: 0 10px; }
+    padding: 0 35px; }
 
   .about-me .background .icons {
     right: 165px; }
